@@ -6,8 +6,7 @@ if [ $? -ne 0 ];then
 git init
 fi
 
-touch .gitignore
-echo plugins  >> .gitignore
+
 
 git add *
 git commit -m "jenkins backup"
