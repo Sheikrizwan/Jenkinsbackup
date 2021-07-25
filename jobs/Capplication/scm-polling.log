@@ -1,0 +1,12 @@
+Started on Jul 23, 2021 11:11:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 082cfbac2db36608c74e47de9c64b1834324741b (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/Sheikrizwan/capplication.git # timeout=10
+Found 1 remote heads on https://github.com/Sheikrizwan/capplication.git
+[poll] Latest remote head revision on refs/heads/master is: 082cfbac2db36608c74e47de9c64b1834324741b - already built by 1
+Done. Took 0.13 sec
+No changes

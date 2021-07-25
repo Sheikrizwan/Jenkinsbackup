@@ -1,0 +1,51 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Capplication
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Sheikrizwan/capplication.git
+ > git init /var/lib/jenkins/workspace/Capplication # timeout=10
+Fetching upstream changes from https://github.com/Sheikrizwan/capplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Sheikrizwan/capplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Sheikrizwan/capplication.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 082cfbac2db36608c74e47de9c64b1834324741b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 082cfbac2db36608c74e47de9c64b1834324741b # timeout=10
+Commit message: "application code is ok"
+First time build. Skipping changelog.
+[Capplication] $ /bin/sh -xe /tmp/jenkins7718144037730909373.sh
++ make
+gcc -c big3.c
+gcc -c rev.c
+gcc -c palin.c
+palin.c: In function ‘pal’:
+palin.c:15:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+     gets(string);
+     ^~~~
+     fgets
+gcc -c sort.c
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:3:1: warning: implicit declaration of function ‘bigg’ [-Wimplicit-function-declaration]
+ bigg ();
+ ^~~~
+main.c:4:1: warning: implicit declaration of function ‘revv’ [-Wimplicit-function-declaration]
+ revv ();
+ ^~~~
+main.c:5:1: warning: implicit declaration of function ‘pal’ [-Wimplicit-function-declaration]
+ pal ();
+ ^~~
+main.c:6:1: warning: implicit declaration of function ‘sortt’ [-Wimplicit-function-declaration]
+ sortt ();
+ ^~~~~
+gcc -o APPLICATION.exe big3.o rev.o palin.o sort.o main.o
+palin.o: In function `pal':
+palin.c:(.text+0x58): warning: the `gets' function is dangerous and should not be used.
+Triggering a new build of [8mha:////4JktE4CXUu6ocsZQ/LQETNoVi05hCp4qtLbBhth63qTpAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JH0vkDkA6OQFnb8AAAA=[0mJava
+Finished: SUCCESS

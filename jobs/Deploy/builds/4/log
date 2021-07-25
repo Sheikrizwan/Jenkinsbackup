@@ -1,0 +1,8 @@
+Started by upstream project "[8mha:////4Km8vtmgLjVMqPuvqtojbi/mMkuwUdiPpPgTUQh/ahToAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4CRnwHdvVKxc4jg40GYXFpJSaAISMiVbk2bIUVKLCw5bAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfVMAI6MK5sEAAAA=[0m5
+originally caused by:
+ Started by user [8mha:////4FsHIrTou1DJp7eawpiktEFWJCEOK/ejqj6H5jwsrAGUAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9osyq8sQ8AFPgFoTBAAAA[0mSheik Rizwan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins6705626362476044373.sh
++ cp /var/lib/jenkins/workspace/build/target/fibonacci-1.0-SNAPSHOT.jar /var/lib/jenkins/workspace/Deploy
+Finished: SUCCESS

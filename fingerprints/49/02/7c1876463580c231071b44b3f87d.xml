@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-07-25 04:32:00.431 UTC</timestamp>
+  <md5sum>49027c1876463580c231071b44b3f87d</md5sum>
+  <fileName>Credential id=Tomcat_credentials name=deployer/****** (Tomcat_credentials)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.5">
+      <timestamp>1627196115352</timestamp>
+      <itemFullName>deploy1</itemFullName>
+      <timestamp0>1627187520427</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

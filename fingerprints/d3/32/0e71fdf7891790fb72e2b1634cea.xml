@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-07-23 07:58:03.723 UTC</timestamp>
+  <md5sum>d3320e71fdf7891790fb72e2b1634cea</md5sum>
+  <fileName>Credential id=fec5d393-c958-4a7a-9963-a17e07208a58 name=ec2-user</fileName>
+  <usages>
+    <entry>
+      <string>Capplication</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

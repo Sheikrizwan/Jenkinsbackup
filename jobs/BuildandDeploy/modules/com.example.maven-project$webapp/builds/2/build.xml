@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@3.12">
+  <actions/>
+  <queueId>-1</queueId>
+  <timestamp>1627114815810</timestamp>
+  <startTime>1627114918407</startTime>
+  <result>NOT_BUILT</result>
+  <duration>0</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/BuildandDeploy/webapp</workspace>
+</hudson.maven.MavenBuild>

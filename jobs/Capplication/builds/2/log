@@ -1,0 +1,27 @@
+Started by user [8mha:////4FsHIrTou1DJp7eawpiktEFWJCEOK/ejqj6H5jwsrAGUAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9osyq8sQ8AFPgFoTBAAAA[0mSheik Rizwan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Capplication
+The recommended git tool is: NONE
+using credential fec5d393-c958-4a7a-9963-a17e07208a58
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Capplication/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Sheikrizwan/capplication.git # timeout=10
+Fetching upstream changes from https://github.com/Sheikrizwan/capplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/Capplication@tmp/jenkins-gitclient-ssh1196033122825456694.key
+ > git fetch --tags --force --progress -- https://github.com/Sheikrizwan/capplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 082cfbac2db36608c74e47de9c64b1834324741b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 082cfbac2db36608c74e47de9c64b1834324741b # timeout=10
+Commit message: "application code is ok"
+ > git rev-list --no-walk 082cfbac2db36608c74e47de9c64b1834324741b # timeout=10
+[Capplication] $ /bin/sh -xe /tmp/jenkins5234404518220679700.sh
++ make
+make: 'APPLICATION.exe' is up to date.
+Triggering a new build of [8mha:////4JktE4CXUu6ocsZQ/LQETNoVi05hCp4qtLbBhth63qTpAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JH0vkDkA6OQFnb8AAAA=[0mJava
+Finished: SUCCESS

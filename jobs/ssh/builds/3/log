@@ -1,0 +1,60 @@
+Started by user [8mha:////4FsHIrTou1DJp7eawpiktEFWJCEOK/ejqj6H5jwsrAGUAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9osyq8sQ8AFPgFoTBAAAA[0mSheik Rizwan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/ssh
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-JmcLmSjDpN0P/agent.3467
+SSH_AGENT_PID=3468
+[ssh-agent] Started.
+Running ssh-add (command line suppressed)
+Identity added: /var/lib/jenkins/workspace/ssh@tmp/private_key_6926143373470520531.key (ec2-user@ip-172-31-11-62.us-east-2.compute.internal)
+[ssh-agent] Using credentials ec2-user (3.138.175.103)
+[SSH] script:
+
+ls
+mkdir test
+
+[SSH] executing...
+ERROR: Failed to authenticate with public key
+com.jcraft.jsch.JSchException: invalid privatekey: [B@3dbd2c
+	at com.jcraft.jsch.KeyPair.load(KeyPair.java:664)
+	at com.jcraft.jsch.IdentityFile.newInstance(IdentityFile.java:46)
+	at com.jcraft.jsch.JSch.addIdentity(JSch.java:441)
+	at org.jenkinsci.plugins.jsch.JSchSSHPublicKeyAuthenticator.doAuthenticate(JSchSSHPublicKeyAuthenticator.java:69)
+	at com.cloudbees.jenkins.plugins.sshcredentials.SSHAuthenticator.authenticate(SSHAuthenticator.java:431)
+	at com.cloudbees.jenkins.plugins.sshcredentials.SSHAuthenticator.authenticate(SSHAuthenticator.java:468)
+	at org.jvnet.hudson.plugins.CredentialsSSHSite.createSession(CredentialsSSHSite.java:122)
+	at org.jvnet.hudson.plugins.CredentialsSSHSite.executeCommand(CredentialsSSHSite.java:208)
+	at org.jvnet.hudson.plugins.SSHBuilder.perform(SSHBuilder.java:104)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:803)
+	at hudson.model.Build$BuildExecution.build(Build.java:197)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:513)
+	at hudson.model.Run.execute(Run.java:1906)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+[SSH] Exception:Auth fail
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:519)
+	at org.jvnet.hudson.plugins.CredentialsSSHSite.createSession(CredentialsSSHSite.java:132)
+	at org.jvnet.hudson.plugins.CredentialsSSHSite.executeCommand(CredentialsSSHSite.java:208)
+	at org.jvnet.hudson.plugins.SSHBuilder.perform(SSHBuilder.java:104)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:803)
+	at hudson.model.Build$BuildExecution.build(Build.java:197)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:513)
+	at hudson.model.Run.execute(Run.java:1906)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 3468 killed;
+[ssh-agent] Stopped.
+Finished: FAILURE

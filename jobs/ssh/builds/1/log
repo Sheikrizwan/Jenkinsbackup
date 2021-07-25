@@ -1,0 +1,26 @@
+Started by user [8mha:////4FsHIrTou1DJp7eawpiktEFWJCEOK/ejqj6H5jwsrAGUAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9osyq8sQ8AFPgFoTBAAAA[0mSheik Rizwan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/ssh
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-bYGH6w7By9UD/agent.3369
+SSH_AGENT_PID=3370
+[ssh-agent] Started.
+Running ssh-add (command line suppressed)
+Identity added: /var/lib/jenkins/workspace/ssh@tmp/private_key_8979051924049484048.key (ec2-user@ip-172-31-11-62.us-east-2.compute.internal)
+[ssh-agent] Using credentials ec2-user (3.138.175.103)
+[SSH] script:
+
+ls
+mkdir test
+
+[SSH] executing...
+Credentials with id 'e7575b3a-6e17-4810-800f-6336efcf105c', no longer exist!
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 3370 killed;
+[ssh-agent] Stopped.
+Build was aborted
+Finished: ABORTED

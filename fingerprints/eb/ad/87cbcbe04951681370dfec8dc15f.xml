@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-07-25 07:17:32.580 UTC</timestamp>
+  <md5sum>ebad87cbcbe04951681370dfec8dc15f</md5sum>
+  <fileName>Credential id=SSH name=ec2-user (SSH)</fileName>
+  <usages>
+    <entry>
+      <string>ft</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

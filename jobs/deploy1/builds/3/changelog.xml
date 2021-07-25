@@ -1,0 +1,20 @@
+commit dfc2e39428ec8ae331d8777346e5cb7c3874126e
+tree 231baf5b0ec4722944d10c12fef564316d42915b
+parent 14a00ff2b481a163fb7ab97edc92c94930940fd5
+author root <root@ip-172-31-8-93.us-east-2.compute.internal> 2021-07-24 10:37:26 +0000
+committer root <root@ip-172-31-8-93.us-east-2.compute.internal> 2021-07-24 10:37:26 +0000
+
+    123
+
+
+:100644 100644 7a46c58df1d21d9a78ce8ee8ccf240237c082cd2 4e906efc291764c501a729f655c7464ee8a3267b M	webapp/pom.xml
+commit 14a00ff2b481a163fb7ab97edc92c94930940fd5
+tree 170700ca491500c58feabe80d785cf667624deeb
+parent f2b9573bce403db4cfb823025eb2a4eea27a4a18
+author root <root@ip-172-31-8-93.us-east-2.compute.internal> 2021-07-24 10:35:14 +0000
+committer root <root@ip-172-31-8-93.us-east-2.compute.internal> 2021-07-24 10:35:14 +0000
+
+    pom edited
+
+
+:100644 100644 eccd206883c239ea8f8860e51cf4a739437f8403 4384b69ecc2c026332d8c329a3af2a907056d153 M	pom.xml

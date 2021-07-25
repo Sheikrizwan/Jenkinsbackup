@@ -1,0 +1,59 @@
+Started by GitHub push by Sheikrizwan
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/webhook
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Sheikrizwan/Javatest.git # timeout=10
+Fetching upstream changes from https://github.com/Sheikrizwan/Javatest.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Sheikrizwan/Javatest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2abb87674389c950d31d5932917990bc407366b5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2abb87674389c950d31d5932917990bc407366b5 # timeout=10
+Commit message: "updated again"
+ > git rev-list --no-walk 53439dcc77e42f94bebc9fc9c733631f8e71bf32 # timeout=10
+[webhook] $ /bin/sh -xe /tmp/jenkins6858083175778678340.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.rwl.test:fibonacci >-----------------------
+[INFO] Building fibonacci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fibonacci ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fibonacci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/webhook/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fibonacci ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fibonacci ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/webhook/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fibonacci ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fibonacci ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ fibonacci ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/lib/jenkins/workspace/webhook/target/fibonacci-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ fibonacci ---
+[INFO] Installing /var/lib/jenkins/workspace/webhook/target/fibonacci-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/rwl/test/fibonacci/1.0-SNAPSHOT/fibonacci-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/webhook/pom.xml to /var/lib/jenkins/.m2/repository/com/rwl/test/fibonacci/1.0-SNAPSHOT/fibonacci-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.174 s
+[INFO] Finished at: 2021-07-23T06:37:46Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

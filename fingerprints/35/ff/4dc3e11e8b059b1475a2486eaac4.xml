@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-07-25 07:26:37.29 UTC</timestamp>
+  <md5sum>35ff4dc3e11e8b059b1475a2486eaac4</md5sum>
+  <fileName>Credential id=SSHa name=ec2-user (SSHa)</fileName>
+  <usages>
+    <entry>
+      <string>ft</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

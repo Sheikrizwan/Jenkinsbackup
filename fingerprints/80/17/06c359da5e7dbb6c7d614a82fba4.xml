@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-07-24 08:04:23.212 UTC</timestamp>
+  <original>
+    <name>builddeploy/com.datica:simple-war</name>
+    <number>7</number>
+  </original>
+  <md5sum>801706c359da5e7dbb6c7d614a82fba4</md5sum>
+  <fileName>com.datica:simple-war:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>builddeploy</string>
+      <ranges>7</ranges>
+    </entry>
+    <entry>
+      <string>builddeploy/com.datica:simple-war</string>
+      <ranges>7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
